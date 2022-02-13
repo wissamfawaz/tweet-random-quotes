@@ -1,0 +1,104 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  background-color: #c9bd95;
+  margin: 0;
+}
+
+/* =================
+Typography
+================= */
+
+h1 {
+  font-family: "Lora", serif;
+  color: #143774;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* =================
+Layout
+================= */
+
+i {
+  margin-left: 0.5em;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 600px;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+.quotes {
+  min-height: 100px;
+  padding: 1em 2em;
+  margin-bottom: 1em;
+}
+
+.quote-text {
+  color: black;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 4em;
+}
+
+.button {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.new-quote {
+  background-color: #4a2b0f;
+  margin-bottom: 0.75em;
+}
+
+.new-quote:hover,
+.new-quote:focus {
+  background-color: #8a5424;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.twitter:hover,
+.twitter:focus {
+  background-color: #1e7fbb;
+}
