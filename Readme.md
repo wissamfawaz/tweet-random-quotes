@@ -4,7 +4,7 @@ Use this tool to generate random quotes and then post them as a tweet to twitter
 
 ## Link to Tool
 
-The application is accessible at [webpage](https://wissamfawaz.com/Apps/TweetQuotes/index.html)
+The application is accessible at [webpage](https://wissamfawaz.github.io/tweet-random-quotes/)
 
 ## Technologies
 
